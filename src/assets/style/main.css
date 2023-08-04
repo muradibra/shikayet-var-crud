@@ -1,5 +1,5 @@
 .app {
-    min-height: 100vh;
+    min-height: 80vh;
     background-image: url('./../img/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
     padding: 50px 0;
 }
 
-.home-wrapper {
+.home-wrapper, .user-details {
     padding-top: 137px;
     padding-bottom: 100px;
 }
@@ -21,4 +21,12 @@
 
 tbody tr .btn {
     margin: 0 5px;
+}
+
+.username {
+    color: #6c757d;
+}
+
+.user {
+    color: #2dce89;
 }

@@ -1,20 +1,16 @@
 {
   "users": [
     {
-      "fullname": "Murad",
-      "id": 1690660936435
-    },
-    {
-      "id": 1690660936810,
-      "fullname": "Murad Ibrahimov"
-    },
-    {
-      "id": 1690660937095,
-      "fullname": "Murad Ibrahimov"
+      "fullname": "Nihad Ibrahimov",
+      "id": 1691084800734
     },
     {
       "fullname": "Murad Ibrahimov",
-      "id": 1690660937372
+      "id": 1691084808253
+    },
+    {
+      "fullname": "Mikayıl Ibrahimov",
+      "id": 1691084808254
     }
   ]
 }
