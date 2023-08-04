@@ -6,12 +6,11 @@ import axios from 'axios'
 
 function Header() {
 
-        const addUser = () => {
-            axios.post('http://localhost:3000/users', {
-                id: Date.now(),
-                fullname: 'Murad Ibrahimov'
-            }).then(res => console.log("Post data", res))
-        }
+        // const addUser = () => {
+        //     axios.post('http://localhost:3000/users', {
+        //         fullname: 'Murad Ibrahimov'
+        //     }).then(res => console.log("Post data", res))
+        // }
 
     return (
         <div className='container'>
@@ -36,9 +35,9 @@ function Header() {
                             color: '#5E72E4',
                             fontSize: '14px'
                         }}
-                        onClick={addUser}
+                        // onClick={addUser}
                     >
-                        Add User
+                        Login
                     </Button>
                 </div>
             </div>
